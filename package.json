@@ -6,6 +6,7 @@
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
+    "export": "decktape https://c00kiemon5ter.github.io/$npm_package_name $npm_package_name.pdf",
     "test": "grunt test",
     "start": "grunt serve",
     "build": "grunt"
@@ -21,6 +22,9 @@
   },
   "engines": {
     "node": ">=9.0.0"
+  },
+  "dependencies": {
+    "decktape": "^2.9.3"
   },
   "devDependencies": {
     "express": "^4.16.2",
