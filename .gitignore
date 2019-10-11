@@ -1,3 +1,10 @@
+*
+!README.md
+!index.html
+!slides-*.md
+!images/*
+!package.json
+!package-lock.json
 .idea/
 *.iml
 *.iws
